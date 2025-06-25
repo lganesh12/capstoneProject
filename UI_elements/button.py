@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> ef4417a (Added files)
 class Button:
     def __init__(self, page):
         self.page = page

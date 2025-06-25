@@ -1,5 +1,5 @@
-from UI_elements.TextInput import TextInput
 from UI_elements.button import Button
+from UI_elements.TextInput import TextInput
 from user_flow.login import Login
 from user_flow.logout import Logout
 
@@ -25,3 +25,4 @@ class User:
 
     def is_user_logged_in(self):
         return Login(self.page).is_user_logged_in()
+
